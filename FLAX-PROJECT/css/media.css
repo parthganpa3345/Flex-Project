@@ -1,0 +1,20 @@
+@media(max-width:500px) {
+    .header .logo {
+        width: 100%;
+    }
+    .header .cname {
+        width: 100%;
+    }
+    /* .nav li {
+        display: block;
+    } */
+    /* .nav {
+        text-align: left;
+    } */
+    /* .nav li a {
+        font-size: 10px;
+    } */
+    .content .x {
+        width: 100%;
+    }
+}

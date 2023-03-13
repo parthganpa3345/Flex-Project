@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* height: 100px; */
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .logo {
+    height: 100px;
+    width: 25%;
+    background: aqua;
+}
+
+.header .cname {
+    height: 100px;
+    width: 75%;
+    background: lightcoral;
+}
+
+.nav {
+    /* height: 50px; */
+    background: green;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav li {
+    /* border: 2px solid; */
+    /* border-color: yellow; */
+    display: block;
+    display: inline;
+    margin-left: 30px;
+    /* float: left; */
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider {
+    height: 500px;
+    background: red;
+}
+
+.content {
+    /* height: 400px; */
+    background: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .x {
+    height: 400px;
+    width: 25%;
+    border: 2px solid;
+}
+
+.content .bg {
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m8.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content img {
+    object-fit: contain;
+}
+
+.footer {
+    height: 100px;
+    background: lightseagreen;
+}
